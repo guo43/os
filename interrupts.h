@@ -9,6 +9,9 @@ class InterruptManager
 {
 public:
 	static uint32_t handleInterrupt(uint8_t interruptNumber, uint32_t esp);
+
+	static void HandleInterruptRequest();
+
 };
 
 
